@@ -1,16 +1,44 @@
-# proyecto_practica
+# 🚀 CryptoTracker: Monitor de Criptomonedas en Tiempo Real
 
-A new Flutter project.
+Una aplicación móvil desarrollada en **Flutter** que permite visualizar el estado actual del mercado de criptomonedas. Este proyecto demuestra el consumo eficiente de **APIs RESTful**, manejo de estados asíncronos y una arquitectura limpia y escalable.
 
-## Getting Started
+![Screenshot](screenshots/home.png)
+*(Asegúrate de poner tu captura aquí)*
 
-This project is a starting point for a Flutter application.
+## ✨ Características Principales
 
-A few resources to get you started if this is your first Flutter project:
+* **Conexión API en Tiempo Real:** Consumo de datos en vivo desde la API pública de CoinGecko.
+* **Manejo de Estados Asíncronos:** Implementación robusta de `FutureBuilder` para gestionar estados de carga (loading), error y éxito.
+* **Arquitectura Limpia:** Estructura de carpetas profesional separando la lógica de negocio (`services`), la interfaz de usuario (`features`) y los modelos de datos (`models`).
+* **Diseño Responsivo:** Uso de `ListView.builder` para un renderizado eficiente de listas extensas.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Tecnologías Utilizadas
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* **Framework:** [Flutter](https://flutter.dev/) (Dart)
+* **Networking:** Paquete `http` para peticiones GET.
+* **JSON Parsing:** Serialización y deserialización manual de datos complejos.
+
+## 🧠 Lo que aprendí construyendo esto
+
+Este proyecto fue diseñado para dominar los fundamentos de la comunicación Cliente-Servidor en aplicaciones móviles:
+1.  Cómo realizar peticiones HTTP asíncronas (`async`/`await`).
+2.  Cómo transformar respuestas JSON crudas en objetos Dart tipados.
+3.  Cómo separar la capa de servicio (la lógica que pide los datos) de la capa de presentación (los widgets).
+
+## 🔧 Cómo ejecutar este proyecto
+
+1.  Clona el repositorio:
+    ```bash
+    git clone [https://github.com/FelixMGZ/NOMBRE_DE_TU_REPO.git](https://github.com/FelixMGZ/NOMBRE_DE_TU_REPO.git)
+    ```
+2.  Instala las dependencias:
+    ```bash
+    flutter pub get
+    ```
+3.  Ejecuta la aplicación:
+    ```bash
+    flutter run
+    ```
+
+---
+**Desarrollado por [FelixMGZ](https://github.com/FelixMGZ)** - *Desarrollador Flutter Junior disponible para proyectos freelance.*
