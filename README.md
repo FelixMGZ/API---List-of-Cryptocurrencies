@@ -28,7 +28,7 @@ Este proyecto fue diseñado para dominar los fundamentos de la comunicación Cli
 
 1.  Clona el repositorio:
     ```bash
-    git clone [https://github.com/FelixMGZ/NOMBRE_DE_TU_REPO.git](https://github.com/FelixMGZ/NOMBRE_DE_TU_REPO.git)
+    ggit clone https://github.com/FelixMGZ/API---List-of-Cryptocurrencies.git
     ```
 2.  Instala las dependencias:
     ```bash
