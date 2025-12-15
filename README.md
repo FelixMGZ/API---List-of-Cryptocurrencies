@@ -2,8 +2,7 @@
 
 Una aplicación móvil desarrollada en **Flutter** que permite visualizar el estado actual del mercado de criptomonedas. Este proyecto demuestra el consumo eficiente de **APIs RESTful**, manejo de estados asíncronos y una arquitectura limpia y escalable.
 
-![Screenshot](screenshots/home.png)
-*(Asegúrate de poner tu captura aquí)*
+<img src="https://github.com/FelixMGZ/API---List-of-Cryptocurrencies/blob/main/imagen/Screenshot_1765822874.png" alt="Captura de pantalla de la aplicación" width="400"/>
 
 ## ✨ Características Principales
 
